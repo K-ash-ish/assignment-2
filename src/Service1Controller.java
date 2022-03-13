@@ -20,7 +20,7 @@ public class Service1Controller {
 
     @RequestMapping(method = RequestMethod.POST, value = "/words")
     public void addWords(@RequestBody Service1Words word){
-            services.addWord(word);
+            services.addWord((Service1Words) word);
         }
         
 }
