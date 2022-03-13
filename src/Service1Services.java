@@ -8,12 +8,7 @@ import java.util.List;
 
 @Service
 public class Service1Services {
-    public List<Service1Words> words = new ArrayList<Service1Words>(
-            Arrays.asList(
-                    new Service1Words("kash")
-            )
-
-    );
+    public List<Service1Words> words = new ArrayList<Service1Words>();
 
     public  List<Service1Words> getWords() {
         return words;
